@@ -71,5 +71,5 @@ function createMap(markerLayer) {
 
     console.log(meteoriteMap);
     // Create a layer control, and pass it baseMaps and overlayMaps. Add the layer control to the map.
-    L.control.layers(baseMaps, overlayMaps).addTo(meteoriteMap); 
+    L.control.layers(baseMaps, overlayMaps, {collapsed: false}).addTo(meteoriteMap); 
 }
